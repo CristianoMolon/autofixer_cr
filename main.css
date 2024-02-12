@@ -1,0 +1,73 @@
+header {
+    background-color: black;
+    border-bottom: 2px solid rgb(0, 255, 200);
+}
+
+body {
+    background-color: black;
+}
+
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+header h1 {
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+
+#auto {
+    color: red;
+    -webkit-text-stroke: 1px white;
+}
+
+#star {
+    color: yellow;
+    -webkit-text-stroke: 1px white;
+}
+
+#fixer {
+    color: blue;
+    -webkit-text-stroke: 1px white;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#el-capitan {
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+section img {
+    max-width: 300px;
+    width: 100%;
+    margin-right: 10px;
+    border: 2px solid rgb(0, 255, 200);
+}
+
+.card img {
+    max-width: 420px;
+    width: 100%;
+}
+
+#carros h2 {
+    color: white;
+    border-bottom: 2px solid rgb(0, 255, 200);
+}
+
+.col-sm-6 {
+    margin-top: 8px;
+}
+
+.nav-link {
+    color: rgb(0, 255, 200);
+}
+
+@media screen and (max-width: 767px) {
+    .container-flex {
+        display: block;
+    }
+}
